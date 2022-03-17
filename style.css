@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+ 
+}
+
+.Navbar{
+   display: flex;
+   justify-content: center;
+   background-color: salmon;
+   align-items: center;
+   height: 60px;
+}
+.details{
+    display: flex;
+    align-items: baseline;
+   
+}
+.item{
+    display: flex;
+    flex-direction:row;
+    margin:80px;
+}
+
+.info{
+    margin-left:40px;
+    
+}
+img{
+    border-radius: 10px;
+}
+.location{
+    margin-right:10px;
+}
+.description{
+    margin-top:10px; 
+}
